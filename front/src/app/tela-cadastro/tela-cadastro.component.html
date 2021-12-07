@@ -1,0 +1,19 @@
+<p style ="text-align:center;">Bem vindos ao Cinema do Parque!</p>
+
+<p> Insira seu nome </p>
+<input type="text" [(ngModel)]="name" >
+
+<p> Insira sua idade </p>
+<input type="number" [(ngModel)]="age" >
+
+<p> Insira seu email </p>
+<input type="text" [(ngModel)]="email" >
+
+<br><br>
+<button (click)="createUser()"> Criar Usuário </button>
+
+<br><br>
+<button (click) ="getUsers()"> Obter Usuários </button>
+
+<br><br>
+<a routerLink="/"> Voltar </a>
